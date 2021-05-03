@@ -53,6 +53,6 @@ Objective image quality metrics try to estimate the perceptual quality of the gi
 
 
 ## Releated work
-- HDR-VDP 2.2 - https://doi.org/10.1117/1.JEI.24.1.010501
+- HDR-VDP 2.2 - http://hdrvdp.sourceforge.net/wiki/
 - LIVE database - https://live.ece.utexas.edu/research/Quality/subjective.htm
 
