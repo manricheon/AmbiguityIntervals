@@ -168,9 +168,7 @@ def main():
   # 1-1) use vdp info from saved mat file (just example)
   _vdp_info = 'vdp_' + dist_type + '_' + v_distance
   vdp_info = mat_file[_vdp_info][0][0]  # last index : ref_name # vdp info of bikes.bmp ; 100x100 matrix
-  # vdp_info = mat_file[_vdp_info][0][1]  # last index : ref_name # vdp info of bikes.bmp ; 100x100 matrix
-  # vdp_info = mat_file[_vdp_info][0][2]  # last index : ref_name # vdp info of bikes.bmp ; 100x100 matrix  
-  # vdp_info = mat_file[_vdp_info][0][N-1]  # last index : ref_name # vdp info of bikes.bmp ; 100x100 matrix  
+  # vdp_info = mat_file[_vdp_info][0][1]  # last index : ref_name # vdp info of building2.bmp ; 100x100 matrix
 
   # or
   # 1-2) use JND model from source (e.g., vdp 2.2)
