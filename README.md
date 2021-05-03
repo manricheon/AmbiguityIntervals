@@ -13,14 +13,14 @@ Objective image quality metrics try to estimate the perceptual quality of the gi
 
 
 ## Usage
-- This is an example code for measuring ambiguity intervals of an objective quality metric. We only provide code to calculate the ambiguity interval. It is recommended to use the original author's implementation of the objective model and VDP model (HDR-VDP 2.2). Basically, VDP information is loaded from database_vdp_info_live.mat in this code. Simple example of vdp model (just difference!) is also included in the code.
+- This is an example code for measuring ambiguity intervals of an objective quality metric. We only provide code to calculate the ambiguity interval. It is recommended to use the original author's implementation of the objective model and VDP model (HDR-VDP 2.2). Perceivableness map related information is saved in database_vdp_info_live.mat in this code. Simple example of vdp model (just difference!) is also included in the code.
 
 - Download and unzip dataset_example.zip file to /dataset/ folder.
 - Run
     ```bash
         python measure_ambiguity.py
     ```
-    - This is an example code for measuring ambiguity intervals of SSIM for one content (ref img and dist imgs).
+    - Example code for measuring ambiguity intervals of SSIM for one content (ref img and dist imgs).
 
 ## Download
 - Example dataset : https://drive.google.com/file/d/1ni2FC4GkkHBuAorJGoEqYZnVUw1-Gqoz/view?usp=sharing
